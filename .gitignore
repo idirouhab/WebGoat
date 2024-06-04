@@ -54,6 +54,7 @@ webgoat.properties
 webgoat.script
 TestClass.class
 **/*.flattened-pom.xml
+
 /.gitconfig
 
 webgoat.gitconfig
