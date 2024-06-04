@@ -878,16 +878,4 @@
       </build>
     </profile>
   </profiles>
-    <distributionManagement>
-        <repository>
-            <id>central</id>
-            <name>a0p5vtrp0rmwp-artifactory-primary-0-releases</name>
-            <url>https://idirotest.jfrog.io/artifactory/webgoat-libs-release</url>
-        </repository>
-        <snapshotRepository>
-            <id>central</id>
-            <name>a0p5vtrp0rmwp-artifactory-primary-0-snapshots</name>
-            <url>https://idirotest.jfrog.io/artifactory/webgoat-libs-snapshots</url>
-        </snapshotRepository>
-    </distributionManagement>
 </project>
