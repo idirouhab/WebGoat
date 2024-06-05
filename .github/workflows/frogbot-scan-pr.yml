@@ -17,8 +17,6 @@ jobs:
       - uses: jfrog/frogbot@8fbeca612957ae5f5f0c03a19cb6e59e237026f3  # v2.10.0
         env:
           JF_URL: ${{ vars.JF_URL }}
-          JF_USER: ${{ secrets.JF_USER }}
-          JF_PASSWORD: ${{ secrets.JF_PASSWORD }}
           JF_GIT_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           oidc-provider-name: "jfrog-github"
